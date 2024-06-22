@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+:root{
+    --main :#0a192f;
+    --mainlight: #172a46;
+    --white :#ccd6f6;
+    --cyan :#5ff0d0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 100px 100px 0px 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:blue;
+   
+}
+
+#query, #dork {
+    margin-top: 5px;
+    color: var(--cyan);
+    background-color: var(--main);
+    height: 50px;
+    width: 500px;
+    border: 1px solid var(--cyan);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#query:hover, #dork:hover {
+    box-shadow: var(--cyan) 0px 0px 20px;
+    border: 1px solid var(--cyan);
+}
+
+button {
+    color: var(--cyan);
+    margin-top: 15px;
+    background-color: var(--mainlight);
+    border: 1px solid var(--cyan);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    text-shadow: var(--cyan) 0px 0px 20px;
+    box-shadow: rgba(95, 240, 208, 0.15) 0px 0px 50px;
+}
+
+button:hover {
+    color: var(--main);
+    background-color: var(--cyan);
+    cursor: pointer;
+    box-shadow: var(--cyan) 0px 0px 40px;
+}
+
+
+.container2 {
+  
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    color: rgb(255, 153, 0);
+}
+
+h2 {
+    color: lime;
+}
+h3{
+  color: white;
+}
+p {
+    color:black;
+}
+
+li{
+  color: orange;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(15, 111, 108);
+}
+
+.container1 img {
+    height: 400px;
+    width: 400px;
+}
